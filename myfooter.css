@@ -1,0 +1,84 @@
+/*******底部第一层样式*********/
+.footer{
+    background: #fff;
+    width: 100%;
+}
+#Fmyfooter li:after{
+    content:"|";
+    display:block;
+    clear:both;
+    position:absolute;
+    top:25px;
+    left:5px;
+    height: 25px;
+    padding: 0;
+}
+
+.myfooter .myfooter-1{
+    width: 1226px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.myfooter .myfooter-1 ul{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.myfooter .myfooter-1 ul li{
+    float: left;
+    width: 19%;
+    padding: 27px 0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+    color: #616161;
+    cursor: pointer;
+}
+.myfooter-1 img{
+    position: absolute;
+    top: 25px;
+    left:14px
+}
+
+
+/*********底部第二层***********/
+/*********1.左侧内容样式*******/
+.container-footer2{
+    width: 1226px;
+    height:152px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    color: #757575;
+    padding-top:40px; 
+}
+.container-footer2 dd{
+    margin:5px;
+}
+.dt-items{
+    font-size:14px;
+    line-height: 1.25;
+    margin:-1px 0 26px;
+    color: #424242;
+}
+.container-footer2-1{
+    float: left;
+    width: 160px;
+    height: 112px;
+    margin: 0;
+}
+.container-footer2-1 button{
+    width: 118px;
+    height:28px;
+    font-size:12px;
+    line-height: 28px;
+    background: #fff;
+    color: #ff6700;
+    border-color: #ff6700;
+}
+/*********1.右侧内容样式*******/
