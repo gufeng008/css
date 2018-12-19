@@ -13,7 +13,11 @@
     height: 25px;
     padding: 0;
 }
-
+.myfooter{
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .myfooter .myfooter-1{
     width: 1226px;
     height: 80px;
@@ -72,6 +76,7 @@
     height: 112px;
     margin: 0;
 }
+/*********2.右侧内容样式*******/
 .container-footer2-1 button{
     width: 118px;
     height:28px;
@@ -81,4 +86,30 @@
     color: #ff6700;
     border-color: #ff6700;
 }
-/*********1.右侧内容样式*******/
+/*********最低层样式*******/
+.container-footer3{
+    width:1226px;
+    height:180px;
+    background: #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    position:relative;
+}
+
+.container-footer3 div{
+    float:left;
+}
+
+.container-footer3 img{
+    float:left;
+    width:84px;
+    height: 28px;
+    
+}
+.container-footer3 .container-footer3-imgs{
+    float:right;
+    width: 175px;
+    height: 60px;
+    
+}
